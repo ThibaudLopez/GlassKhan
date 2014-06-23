@@ -10,5 +10,5 @@ Built during the Pre-I/O Google Glass Hackaton in San Francisco, June 20-21, 201
 https://www.eventbrite.com/e/pre-io-google-glass-hackathon-tickets-11494645795
 
 by
-Thibaud Lopez Schneider
+Thibaud Lopez Schneider,
 Ross Gruetzemacher
