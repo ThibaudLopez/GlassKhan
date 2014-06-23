@@ -46,9 +46,9 @@ class KhanAcademyApi {
 	 * PENDING - shamefully simulating OAuth to khanacademy.org; hackatons go fast!
 	 */
 	public static String OAuth() {
-		String session = "v9qefoyB4QXciAiwKWAetyODomU=";
-		String oauth_token_string = "UydvYXV0aF90b2tlbl9zZWNyZXQ9NmVtaEpIeUgzWm1QWTVBOSZvYXV0aF90b2tlbj10NjY1MTY1MDcyNTM4MDA5NicKcDEKLg==";
-		String request_token_string = "UydvYXV0aF90b2tlbl9zZWNyZXQ9dnhSWUJMTmFzWGc5VjlZQiZvYXV0aF90b2tlbj10NTU5OTE5MDc4MzA5ODg4MCcKcDEKLg==";
+		String session = "v9qefoyB4QX...=";
+		String oauth_token_string = "UydvYXV0aF90b2tlbl9zZWNy...==";
+		String request_token_string = "UydvYXV0aF90b2tlbl9zZWNy...==";
 		return "session=\"" + session + "?oauth_token_string=" + oauth_token_string + "&request_token_string=" + request_token_string + "\";";
 	}
 	/*
