@@ -8,6 +8,7 @@ https://developers.google.com/glass/develop/mirror/quickstart/java
 
 Built during the Pre-I/O Google Glass Hackaton in San Francisco, June 20-21, 2014,
 https://www.eventbrite.com/e/pre-io-google-glass-hackathon-tickets-11494645795
+http://preioglasshack.challengepost.com/
 
 by
 Thibaud Lopez Schneider,
