@@ -17,8 +17,8 @@ public class GlassHackaton {
 	 */
 	public GlassHackaton(Credential credential) throws IOException {
 		// get the coach's roster
-		String identifier = "thibaud.lopez.schneider@gmail.com";
-		String password = "gl@ssh@ck@t0n";
+		String identifier = "identified@khanacademy";
+		String password = "*******";
 		List<String> roster = KhanAcademyApi.getRoster(identifier, password);
 		if (roster == null) {
 			System.err.println("Couldn't get roster.");
