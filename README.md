@@ -13,4 +13,4 @@ by
 Thibaud Lopez Schneider,
 Ross Gruetzemacher
 
-Contributions are welcomed.
+Contributions are welcomed. And if you work at Khan Academy, contact us, we need some new APIs from you for (coach data).
