@@ -12,3 +12,5 @@ https://www.eventbrite.com/e/pre-io-google-glass-hackathon-tickets-11494645795
 by
 Thibaud Lopez Schneider,
 Ross Gruetzemacher
+
+Contributions are welcomed.
