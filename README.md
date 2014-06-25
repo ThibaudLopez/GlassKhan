@@ -14,4 +14,6 @@ by
 Thibaud Lopez Schneider,
 Ross Gruetzemacher
 
-Contributions are welcomed. And if you work at Khan Academy, contact us, we need some new APIs from you (coach data).
+Contributions are welcomed. And if you work at Khan Academy, contact us, we need some new APIs from you (coach data, notifications, and the servers returned HTTP 500 “Internal Server Error [...] the server is overloaded”).
+
+For more information, refer to http://thibaudatwork.wordpress.com/2014/06/25/google-glass-for-khan-academy/
