@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'node-gcm', '-g' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'node-gcm', null ]
+5 verbose cache add name=undefined spec="node-gcm" args=["node-gcm",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-gcm',
+6 verbose parsed url   path: 'node-gcm',
+6 verbose parsed url   href: 'node-gcm' }
+7 silly lockFile e7031116-node-gcm node-gcm
+8 verbose lock node-gcm /Users/ryan/.npm/e7031116-node-gcm.lock
+9 silly lockFile e7031116-node-gcm node-gcm
+10 silly lockFile e7031116-node-gcm node-gcm
+11 verbose addNamed [ 'node-gcm', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 76bb3c36-node-gcm node-gcm@
+14 verbose lock node-gcm@ /Users/ryan/.npm/76bb3c36-node-gcm.lock
+15 silly addNameRange { name: 'node-gcm', range: '*', hasData: false }
+16 verbose url raw node-gcm
+17 verbose url resolving [ 'https://registry.npmjs.org/', './node-gcm' ]
+18 verbose url resolved https://registry.npmjs.org/node-gcm
+19 info trying registry request attempt 1 at 12:16:51
+20 http GET https://registry.npmjs.org/node-gcm
+21 info retry will retry, error on last attempt: Error: SELF_SIGNED_CERT_IN_CHAIN
+22 info trying registry request attempt 2 at 12:17:01
+23 http GET https://registry.npmjs.org/node-gcm
+24 info retry will retry, error on last attempt: Error: SELF_SIGNED_CERT_IN_CHAIN
+25 info trying registry request attempt 3 at 12:18:01
+26 http GET https://registry.npmjs.org/node-gcm
+27 silly lockFile 76bb3c36-node-gcm node-gcm@
+28 silly lockFile 76bb3c36-node-gcm node-gcm@
+29 error Error: SELF_SIGNED_CERT_IN_CHAIN
+29 error     at SecurePair.<anonymous> (tls.js:1370:32)
+29 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+29 error     at SecurePair.maybeInitFinished (tls.js:982:10)
+29 error     at CleartextStream.read [as _read] (tls.js:469:13)
+29 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+29 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+29 error     at doWrite (_stream_writable.js:226:10)
+29 error     at writeOrBuffer (_stream_writable.js:216:5)
+29 error     at EncryptedStream.Writable.write (_stream_writable.js:183:11)
+29 error     at write (_stream_readable.js:583:24)
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Darwin 13.2.0
+32 error command "node" "/usr/local/bin/npm" "install" "node-gcm" "-g"
+33 error cwd /Users/ryan/Documents/workspace-eclipse/HttpClientTestApp
+34 error node -v v0.10.26
+35 error npm -v 1.4.3
+36 verbose exit [ 1, true ]
